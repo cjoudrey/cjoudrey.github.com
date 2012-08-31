@@ -1,0 +1,46 @@
+body {
+  font-family: "Myriad Pro","Myriad",sans-serif;
+  font-size: 20px;
+  color: #222;
+  background-color: #FDFDFD;
+}
+
+a {
+  color: #3A74C2;
+  text-decoration: none;
+}
+
+.header-container {
+  .wrapper {
+    width: 624px;
+    margin: 25px auto;
+  }
+
+  .avatar {
+    float: left;
+    margin-right: 30px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 200px;
+
+    a {
+      display: block;
+      width: 100px;
+      height: 100px;
+      border-radius: 200px;
+      background-size: cover;
+      box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5),inset 0 0 2px 1px rgba(0, 0, 0, 0.05);
+    }
+  }
+
+  .intro {
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: bold;
+
+    .ss-icon {
+      font-size: 21px;
+    }
+  }
+}
