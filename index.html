@@ -22,25 +22,23 @@
   <![endif]-->
 </head>
 <body>
-  <div class="header-container">
-    <header class="wrapper clearfix">
-      <div class="avatar">
-        <a href="/" style="background: url('http://secure.gravatar.com/avatar/{{ site.author.gravatar }}?s=100');"></a>
-      </div>
-      <div class="intro">
-        Hi, I'm {{ site.author.name }}.
-        I work at <a href="http://cakemail.com">CakeMail</a> in Montreal.
-        I coded <a href="http://captureapi.com">CaptureAPI</a> (url to image API).
-        You can find me on
-        <a href="{{ site.author.github }}" class="ss-icon ss-social-circle ss-octocat"></a>
-        and
-        <a href="{{ site.author.twitter }}" class="ss-icon ss-social-circle ss-twitter"></a>.
-      </div>
-    </header>
-  </div>
+  <header class="header-container wrapper clearfix">
+    <div class="avatar">
+      <a href="/" style="background: url('http://secure.gravatar.com/avatar/{{ site.author.gravatar }}?s=100');"></a>
+    </div>
+    <div class="intro">
+      Hi, I'm {{ site.author.name }}.
+      I work at <a href="http://cakemail.com">CakeMail</a> in Montreal.
+      I coded <a href="http://captureapi.com">CaptureAPI</a> (url to image API).
+      You can find me on
+      <a href="{{ site.author.github }}" class="ss-icon ss-social-circle ss-octocat"></a>
+      and
+      <a href="{{ site.author.twitter }}" class="ss-icon ss-social-circle ss-twitter"></a>.
+    </div>
+  </header>
 
   <script>
-    var _gaq=[['_setAccount','UA-11028046-9'],['_trackPageview']];
+    var _gaq=[['_setAccount','UA-11235343-9'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));

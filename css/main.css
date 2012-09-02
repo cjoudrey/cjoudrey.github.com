@@ -1,16 +1,17 @@
 body {
   font-family: "Myriad Pro","Myriad",sans-serif;
-  font-size: 20px;
-  color: #222;
+  font-size: 16px;
+  color: #333;
   background-color: #FDFDFD; }
 
 a {
   color: #3A74C2;
   text-decoration: none; }
 
-.header-container .wrapper {
-  width: 624px;
-  margin: 25px auto; }
+.wrapper {
+  width: 625px;
+  margin: 30px auto; }
+
 .header-container .avatar {
   float: left;
   margin-right: 30px;
@@ -27,7 +28,28 @@ a {
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset 0 0 2px 1px rgba(0, 0, 0, 0.05); }
 .header-container .intro {
   line-height: 1.5;
-  font-size: 22px;
-  font-weight: bold; }
+  font-size: 22px; }
   .header-container .intro .ss-icon {
     font-size: 21px; }
+
+.content-container {
+  margin-top: 30px;
+  border-top: 1px solid #ddd;
+  padding-top: 30px; }
+  .content-container h2 {
+    font-size: 22px;
+    line-height: 22px;
+    margin: 0 0 30px 0;
+    text-align: center; }
+  .content-container ul, .content-container ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+
+.listing {
+  margin-bottom: 30px; }
+  .listing a {
+    font-size: 20px; }
+  .listing time {
+    width: 110px;
+    display: inline-block; }
