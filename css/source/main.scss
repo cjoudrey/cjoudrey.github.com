@@ -46,6 +46,7 @@ a {
   padding-bottom: $margin;
 }
 
+/* Home styles */
 #home {
   margin-top: $margin;
 }
@@ -73,4 +74,71 @@ a {
     width: 110px;
     display: inline-block;
   }
+}
+
+/* Article styles */
+article.post {
+  margin-bottom: 60px;
+}
+
+article.post header {
+  margin-bottom: 20px;
+}
+
+article.post header h1 {
+  color: black;
+//  font-size: 170%;
+  margin-bottom: 10px;
+}
+
+article.post header h1 a {
+  text-decoration: none;
+}
+
+article.post header span {
+  display: block;
+  padding-bottom: 5px;
+}
+
+article.post section.content {
+  margin-bottom: 20px;
+ // font-size: 120%;
+  //line-height: 160%;
+}
+
+article.post section.content a {
+  color: #0000ff;
+}
+
+article.post section.content p, pre {
+  margin: 20px 0;
+}
+
+article.post section.content code {
+  color: #222;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  padding: 2px;
+}
+
+article.post section.content pre {
+  color: #222;
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ccc;
+  overflow: auto;
+}
+
+article.post section.content pre code {
+  padding: 0 !important;
+  border: none !important;
+}
+
+article.post section.content p img {
+  max-width: 100%;
+  border: 1px solid black;
+}
+
+article.post section.content ul {
+    margin-left: 20px;
 }
