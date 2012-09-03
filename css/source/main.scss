@@ -17,7 +17,8 @@ a {
   margin: $margin auto;
 }
 
-.header-container {
+/* Index intro box */
+#intro {
   .avatar {
     float: left;
     margin-right: 30px;
@@ -36,7 +37,7 @@ a {
     }
   }
 
-  .intro {
+  .text {
     line-height: 1.5;
     font-size: 22px;
 
@@ -46,11 +47,13 @@ a {
   }
 }
 
-.content-container {
+#home {
   margin-top: $margin;
   border-top: 1px solid #ddd;
   padding-top: $margin;
+}
 
+.listing {
   h2 {
     font-size: 22px;
     line-height: 22px;
@@ -63,9 +66,7 @@ a {
     padding: 0;
     list-style: none;
   }
-}
 
-.listing {
   margin-bottom: $margin;
 
   a {

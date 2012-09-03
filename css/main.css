@@ -12,42 +12,43 @@ a {
   width: 625px;
   margin: 30px auto; }
 
-.header-container .avatar {
+/* Index intro box */
+#intro .avatar {
   float: left;
   margin-right: 30px;
   display: inline-block;
   width: 100px;
   height: 100px;
   border-radius: 200px; }
-  .header-container .avatar a {
+  #intro .avatar a {
     display: block;
     width: 100px;
     height: 100px;
     border-radius: 200px;
     background-size: cover;
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset 0 0 2px 1px rgba(0, 0, 0, 0.05); }
-.header-container .intro {
+#intro .text {
   line-height: 1.5;
   font-size: 22px; }
-  .header-container .intro .ss-icon {
+  #intro .text .ss-icon {
     font-size: 21px; }
 
-.content-container {
+#home {
   margin-top: 30px;
   border-top: 1px solid #ddd;
   padding-top: 30px; }
-  .content-container h2 {
+
+.listing {
+  margin-bottom: 30px; }
+  .listing h2 {
     font-size: 22px;
     line-height: 22px;
     margin: 0 0 30px 0;
     text-align: center; }
-  .content-container ul, .content-container ul li {
+  .listing ul, .listing ul li {
     margin: 0;
     padding: 0;
     list-style: none; }
-
-.listing {
-  margin-bottom: 30px; }
   .listing a {
     font-size: 20px; }
   .listing time {
