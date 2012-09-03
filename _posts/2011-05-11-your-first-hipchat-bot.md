@@ -15,7 +15,7 @@ If you have never heard of [XMPP](http://en.wikipedia.org/wiki/Extensible_Messag
 
 [wobot](https://github.com/cjoudrey/wobot/blob/master/README.md) is my attempt at abstracting the XMPP protocol in [Node.js](http://nodejs.org) and offering a simple API to write your own bot.
 
-<img src="/2011/05/11/your-first-hipchat-bot/screen1.png"/ >
+<img src="/images/2011-05-11-your-first-hipchat-bot/screen1.png"/ >
 
 ## Installing wobot
 
@@ -41,7 +41,7 @@ Once wobot is installed you will need to add a new member to your HipChat group 
 
 Under "My Account" > "XMPP/Jabber Info" you will find the following:
 
-<img src="/2011/05/11/your-first-hipchat-bot/screen2.png" />
+<img src="/images/2011-05-11-your-first-hipchat-bot/screen2.png"/ >
 
 Instantiate the `wobot.Bot` class as follows:
 
@@ -74,7 +74,7 @@ Here is a simple example of a echo bot:
       this.message(channel, '@' + from + ' you just said: ' + msg);
     });
 
-<img src="/2011/05/11/your-first-hipchat-bot/screen3.png" />
+<img src="/images/2011-05-11-your-first-hipchat-bot/screen3.png"/ >
 
 ## Conclusion
 
