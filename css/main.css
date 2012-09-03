@@ -13,28 +13,29 @@ a {
   margin: 30px auto; }
 
 /* Index intro box */
-#intro .avatar {
-  float: left;
-  margin-right: 30px;
-  display: inline-block;
-  width: 100px;
-  height: 100px;
-  border-radius: 200px; }
-  #intro .avatar a {
-    display: block;
+#intro {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 30px; }
+  #intro .avatar {
+    float: left;
+    margin-right: 30px;
+    display: inline-block;
     width: 100px;
     height: 100px;
-    border-radius: 200px;
-    background-size: cover;
-    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset 0 0 2px 1px rgba(0, 0, 0, 0.05); }
-#intro .text {
-  line-height: 1.5;
-  font-size: 137.5%; }
+    border-radius: 200px; }
+    #intro .avatar a {
+      display: block;
+      width: 100px;
+      height: 100px;
+      border-radius: 200px;
+      background-size: cover;
+      box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset 0 0 2px 1px rgba(0, 0, 0, 0.05); }
+  #intro .text {
+    line-height: 1.5;
+    font-size: 137.5%; }
 
 #home {
-  margin-top: 30px;
-  border-top: 1px solid #ddd;
-  padding-top: 30px; }
+  margin-top: 30px; }
 
 .listing {
   margin-bottom: 30px; }

@@ -41,12 +41,13 @@ a {
     line-height: 1.5;
     font-size: 137.5%;
   }
+
+  border-bottom: 1px solid #ddd;
+  padding-bottom: $margin;
 }
 
 #home {
   margin-top: $margin;
-  border-top: 1px solid #ddd;
-  padding-top: $margin;
 }
 
 .listing {
