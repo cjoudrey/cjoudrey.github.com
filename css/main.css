@@ -29,9 +29,7 @@ a {
     box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset 0 0 2px 1px rgba(0, 0, 0, 0.05); }
 #intro .text {
   line-height: 1.5;
-  font-size: 22px; }
-  #intro .text .ss-icon {
-    font-size: 21px; }
+  font-size: 137.5%; }
 
 #home {
   margin-top: 30px;
@@ -41,8 +39,7 @@ a {
 .listing {
   margin-bottom: 30px; }
   .listing h2 {
-    font-size: 22px;
-    line-height: 22px;
+    font-size: 137.5%;
     margin: 0 0 30px 0;
     text-align: center; }
   .listing ul, .listing ul li {
@@ -50,7 +47,7 @@ a {
     padding: 0;
     list-style: none; }
   .listing a {
-    font-size: 20px; }
+    font-size: 125%; }
   .listing time {
     width: 110px;
     display: inline-block; }
