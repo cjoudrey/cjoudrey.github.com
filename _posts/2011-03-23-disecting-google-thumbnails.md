@@ -49,15 +49,17 @@ The thumbnails are sent with a expiry time of 1 day from a server running `snaps
 
 The structure of the returned JSON goes as follows:
 
-    {
-      "s": "b",
-      "b": 1,
-      "dim": [302, 585],
-      "ssegs": [ "data:image/jpeg...", "data:image/jpeg..." ],
-      "ssegs-heights: [405, 180],
-      "tbts": [ ... ],
-      "url": "http://www.reddit.com/r/programming"
-    }
+{% highlight json %}
+{
+  "s": "b",
+  "b": 1,
+  "dim": [302, 585],
+  "ssegs": [ "data:image/jpeg...", "data:image/jpeg..." ],
+  "ssegs-heights": [405, 180],
+  "tbts": [ "..." ],
+  "url": "http://www.reddit.com/r/programming"
+}
+{% endhighlight %}
 
 - `dim` contains the total width and height of the thumbnails
 - `ssegs` contains an array of strings each composed of a data uri with a segment of the thumbnail
@@ -87,21 +89,23 @@ Each text overlay has an entry in the array with the following values:
 
 For example:
 
-    {
-      "box": {
-        "h": 10,
-        "l": 211,
-        "t": 71,
-        "w": 74
-      },
-      "txt": "A reddit for discussion and news about computer <em>programming</em> <b>...</b>",
-      "txtBox": {
-        "h": 42,
-        "l": 0,
-        "t": 25,
-        "w": 300
-      }
-    }
+{% highlight json %}
+{
+  "box": {
+    "h": 10,
+    "l": 211,
+    "t": 71,
+    "w": 74
+  },
+  "txt": "A reddit for discussion and news about computer <em>programming</em> <b>...</b>",
+  "txtBox": {
+    "h": 42,
+    "l": 0,
+    "t": 25,
+    "w": 300
+  }
+}
+{% endhighlight %}
 
 A `div` is then appended for each box and textbox into the preview bubble which gives the end result:
 

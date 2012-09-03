@@ -31,9 +31,11 @@ Additionally, wobot depends on the [node-xmpp](https://github.com/astro/node-xmp
 
 Once you have installed the build dependencies, install wobot in your working directory using npm:
 
-    mkdir ~/mybot
-    cd ~/mybot
-    npm install wobot
+{% highlight bash %}
+mkdir ~/mybot
+cd ~/mybot
+npm install wobot
+{% endhighlight %}
 
 ## Configurations
 
@@ -45,13 +47,15 @@ Under "My Account" > "XMPP/Jabber Info" you will find the following:
 
 Instantiate the `wobot.Bot` class as follows:
 
-    var wobot = require('wobot');
-    var bot = new wobot.Bot({
-      jid: '1234_12345@chat.hipchat.com/bot',
-      password: 'yourpassword',
-      name: 'XMPP Bot'
-    });
-    bot.connect();
+{% highlight javascript %}
+var wobot = require('wobot');
+var bot = new wobot.Bot({
+  jid: '1234_12345@chat.hipchat.com/bot',
+  password: 'yourpassword',
+  name: 'XMPP Bot'
+});
+bot.connect();
+{% endhighlight %}
 
 After running the above script, you should see your bot in HipChat's Lobby.
 
@@ -59,9 +63,11 @@ After running the above script, you should see your bot in HipChat's Lobby.
 
 Once the bot is connected you will likely want it to join one or many channels. This can be done as follows:
 
-    bot.on('connect', function() {
-      this.join('1234_bot_testing@conf.hipchat.com');
-    });
+{% highlight javascript %}
+bot.on('connect', function() {
+  this.join('1234_bot_testing@conf.hipchat.com');
+});
+{% endhighlight %}
 
 ## Reacting to a message
 
@@ -69,10 +75,12 @@ Whenever a message is sent to a channel your bot is in, the `message` event will
 
 Here is a simple example of a echo bot:
 
-    bot.on('message', function(channel, from, msg) {
-      if (from === this.name) return false;
-      this.message(channel, '@' + from + ' you just said: ' + msg);
-    });
+{% highlight javascript %}
+bot.on('message', function(channel, from, msg) {
+  if (from === this.name) return false;
+  this.message(channel, '@' + from + ' you just said: ' + msg);
+});
+{% endhighlight %}
 
 <img src="/images/2011-05-11-your-first-hipchat-bot/screen3.png"/ >
 
