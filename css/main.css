@@ -33,6 +33,7 @@ a {
       background-size: cover;
       box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset 0 0 2px 1px rgba(0, 0, 0, 0.05); }
   #intro .text {
+    padding: 17px 0px;
     line-height: 1.5;
     font-size: 137.5%; }
 
