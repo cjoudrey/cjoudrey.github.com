@@ -19,20 +19,23 @@ title: Christian Joudrey
 
 <div id="home" class="wrapper">
   <section class="listing">
+    <h2>Talks &amp; Presentations</h2>
+    <ul>
+      <li><time>May 23, 2014</time> <a href="https://speakerdeck.com/cjoudrey/tips-and-tricks-from-shopifys-codebase">Tips and Tricks from Shopify’s codebase</a></li>
+      <li><time>Feb 28, 2014</time> <a href="https://speakerdeck.com/cjoudrey/scaling-shopify">Scaling Shopify</a></li>
+      <li><time>May 21, 2013</time> <a href="https://speakerdeck.com/cjoudrey/number-pairwithme">#pairwithme</a></li>
+      <li><time>Mar 19, 2013</time> <a href="https://speakerdeck.com/cjoudrey/two-factor-authentication">Two-factor authentication in Rails</a></li>
+      <li><time>Feb 28, 2013</time> <a href="https://speakerdeck.com/cjoudrey/automate-your-infrastructure-with-chef">Automate your infrastructure with Chef</a></li>
+      <li><time>Mar 14, 2012</time> <a href="https://speakerdeck.com/u/cjoudrey/p/continuous-integration-with-travis-ci">Continuous integration with Travis-CI</a></li>
+    </ul>
+  </section>
+
+  <section class="listing">
     <h2>Blog posts</h2>
     <ul>
       {% for post in site.posts %}
       <li><time>{{ post.date | date_to_string }}</time> <a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
-    </ul>
-  </section>
-
-  <section class="listing">
-    <h2>Talks &amp; Presentations</h2>
-    <ul>
-      <li><time>Mar 19, 2013</time> <a href="https://speakerdeck.com/cjoudrey/two-factor-authentication">Two-factor authentication in Rails</a></li>
-      <li><time>Feb 28, 2013</time> <a href="https://speakerdeck.com/cjoudrey/automate-your-infrastructure-with-chef">Automate your infrastructure with Chef</a></li>
-      <li><time>Mar 14, 2012</time> <a href="https://speakerdeck.com/u/cjoudrey/p/continuous-integration-with-travis-ci">Continuous integration with Travis-CI</a></li>
     </ul>
   </section>
 
