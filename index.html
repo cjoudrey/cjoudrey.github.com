@@ -3,41 +3,17 @@ layout: default
 title: Christian Joudrey
 ---
 
-<header id="intro" class="wrapper">
-  <div class="avatar">
-    <a href="/" style="background: url('http://secure.gravatar.com/avatar/{{ site.author.gravatar }}?s=100');"></a>
-  </div>
-  <div class="text">
-    Hi, I'm {{ site.author.name }}.
-    I work at <a href="http://shopify.com">Shopify</a> in Montreal.
-    You can find me on
-    <a href="{{ site.author.github }}" class="ss-icon ss-social-circle">octocat</a>
-    and
-    <a href="{{ site.author.twitter }}" class="ss-icon ss-social-circle">Twitter</a>.
-  </div>
+<header id="intro">
+  <h1>Christian Joudrey</h1>
+
+  <hr>
+
+  <p>
+    Hello! I am a software developer based in Montreal.<br/>
+    <br/>
+    I open-source code on <a href="https://github.com/cjoudrey">GitHub</a> and travel photos on <a href="https://unsplash.com/@cjoudrey"/>Unsplash</a>.
+    I like to speak about Ruby, Scaling, and APIs. You can find my talks on <a href="https://speakerdeck.com/cjoudrey">Speaker Deck</a>.<br />
+    <br />
+    Oh, I am also on <a href="https://twitter.com/cjoudrey">Twitter</a> if you want to follow me.
+  </p>
 </header>
-
-<div id="home" class="wrapper">
-  <section class="listing">
-    <h2>Talks &amp; Presentations</h2>
-    <ul>
-      <li><time>Feb 26, 2016</time> <a href="https://speakerdeck.com/cjoudrey/developing-at-scale">Developing at Scale</a></li>
-      <li><time>Apr 21, 2015</time> <a href="https://speakerdeck.com/cjoudrey/cyber-monday-at-shopify">Scaling Rails for BF / CM at Shopify</a></li>
-      <li><time>May 23, 2014</time> <a href="https://speakerdeck.com/cjoudrey/tips-and-tricks-from-shopifys-codebase">Tips and Tricks from Shopify’s codebase</a></li>
-      <li><time>Feb 28, 2014</time> <a href="https://speakerdeck.com/cjoudrey/scaling-shopify">Scaling Shopify</a></li>
-      <li><time>May 21, 2013</time> <a href="https://speakerdeck.com/cjoudrey/number-pairwithme">#pairwithme</a></li>
-      <li><time>Mar 19, 2013</time> <a href="https://speakerdeck.com/cjoudrey/two-factor-authentication">Two-factor authentication in Rails</a></li>
-      <li><time>Feb 28, 2013</time> <a href="https://speakerdeck.com/cjoudrey/automate-your-infrastructure-with-chef">Automate your infrastructure with Chef</a></li>
-      <li><time>Mar 14, 2012</time> <a href="https://speakerdeck.com/u/cjoudrey/p/continuous-integration-with-travis-ci">Continuous integration with Travis-CI</a></li>
-    </ul>
-  </section>
-
-  <section class="listing">
-    <h2>Blog posts</h2>
-    <ul>
-      {% for post in site.posts %}
-      <li><time>{{ post.date | date_to_string }}</time> <a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
-    </ul>
-  </section>
-</div>
