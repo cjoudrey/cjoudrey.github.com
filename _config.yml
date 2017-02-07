@@ -3,6 +3,6 @@ author:
   gravatar: '85b03650a2ec5235376b0b983a49511a'
   github: 'https://github.com/cjoudrey'
   twitter: 'https://twitter.com/cjoudrey'
-pygments: true
-auto: true
-regeneration: true
+
+markdown: kramdown
+highlighter: rouge
